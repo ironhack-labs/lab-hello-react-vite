@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav * {
+  padding-top: 30px;
+}
+
+main {
+  padding: 10px 40px 80px 40px;
+  background: #1c2635;
+  color: white;
+}
+
+main h1 {
+  font-size: 50px;
+  font-weight: 750;
+}
+
+main p {
+  font-size: 18px;
+  margin-bottom: 60px;
+  max-width: 250px;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+}
+
+.icon-bar {
+  padding: 20px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icon {
+  max-width: 200px;
+  margin: 20px;
+}
+
+p {
+  color: grey;
+  font-size: 14px;
+}
+
+h4 {
+  color: black;
+  font-size: 20px;
+}
