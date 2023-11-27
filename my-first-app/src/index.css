@@ -3,13 +3,33 @@
   padding: 0;
 }
 
-.card-container{
+.card-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 10px; /* Adjust the margin as needed to provide space between cards */
+}
+.CardLayout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;}
+
+.card-body img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
+h1 {
+  margin: 10px 0;
+}
+
+p {
+  color: #666;
+}
 
 
 .nav-container{
@@ -43,3 +63,4 @@ button{
 h3{
   margin-left: 60px;
 }
+

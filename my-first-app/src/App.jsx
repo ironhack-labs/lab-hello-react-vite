@@ -32,7 +32,7 @@ function App() {
       <Nav src1={"https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/ironhack-logo-xs.png"}
       src2={"https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/menu-top-xs.png"}/>
       {data.map(({title,text,src},index)=>(
-        <Card title={title} text={text} src={src} key={index}/>
+        <Card className="CardLayout" title={title} text={text} src={src} key={index}/>
       ))}
     </div>
   )
