@@ -7,14 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   margin: 10px; /* Adjust the margin as needed to provide space between cards */
 }
-.CardLayout{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;}
 
 .card-body img {
   width: 100%;
@@ -23,11 +17,19 @@
   margin-bottom: 10px;
 }
 
-h1 {
+.card-main{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+h2 {
   margin: 10px 0;
 }
 
 p {
+  margin: 10px 0;
   color: #666;
 }
 
