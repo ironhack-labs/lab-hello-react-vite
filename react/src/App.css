@@ -1,0 +1,64 @@
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+.ironhack-logo {
+  width: 60px;
+  margin: 30px;
+}
+
+.menu {
+  width: 60px;
+  float: right;
+  margin: 30px;
+}
+
+main {
+  background-color: #1f2535;
+  height: 600px;
+  margin: 16px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-section p {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-section {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+button {
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.footer-section {
+  display: flex;
+  text-align: justify;
+  margin: 50px;
+}
+
+.footer-section div {
+  text-align: left;
+  margin: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-section h4 {
+  font-weight: 700;
+}
