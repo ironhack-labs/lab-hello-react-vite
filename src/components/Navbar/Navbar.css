@@ -1,0 +1,12 @@
+.Navbar {
+    display: flex;
+    padding: 20px 60px;
+}
+
+.Navbar img {
+    height: 68px;
+}
+
+.Navbar .menu-icon{
+    margin-left: auto;
+}
