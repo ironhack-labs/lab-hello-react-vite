@@ -10,8 +10,20 @@ p {
   font-size: 1.4rem;
 }
 
-.big-heading {
+.text-xxl {
   font-size: 5rem;
+}
+
+.text-lg {
+  font-size: 2rem;
+}
+
+.text-md {
+  font-size: 1.5rem;
+}
+
+.text-sm {
+  font-size: 1.25rem;
 }
 
 .button-white {
@@ -25,14 +37,27 @@ p {
 
 section#landing {
   max-width: 400px;
-  padding: 0 60px;
+  padding: 40px 60px;
 }
 
 section#landing h1 {
   margin: 100px 0 12px 0;
 }
 
-
 section#landing .button-white {
   margin-top: 56px;
+}
+
+section#features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+section#features .wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 52px;
+  justify-content: center;
 }

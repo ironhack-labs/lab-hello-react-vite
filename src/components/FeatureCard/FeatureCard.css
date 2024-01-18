@@ -1,0 +1,13 @@
+.FeatureCard {
+    max-width: 160px;
+}
+
+.FeatureCard img {
+    height: 140px;
+    width: auto;
+    margin-bottom: 12px;
+}
+
+.FeatureCard h1 {
+    margin-bottom: 4px;
+}
