@@ -5,3 +5,34 @@
 .App {
   min-width: 100%;
 }
+
+p {
+  font-size: 1.4rem;
+}
+
+.big-heading {
+  font-size: 5rem;
+}
+
+.button-white {
+  display: inline-block;
+  background-color: white;
+  color: #282828;
+  padding: 16px 20px;
+  font-size: 1.6rem;
+  border-radius: 0.2rem;
+}
+
+section#landing {
+  max-width: 400px;
+  padding: 0 60px;
+}
+
+section#landing h1 {
+  margin: 100px 0 12px 0;
+}
+
+
+section#landing .button-white {
+  margin-top: 56px;
+}

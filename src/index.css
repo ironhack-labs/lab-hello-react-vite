@@ -10,6 +10,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
   display: flex;
+}
+
+* {
+  margin: 0;
 }
