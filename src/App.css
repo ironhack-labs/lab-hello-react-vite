@@ -11,11 +11,13 @@ p {
 }
 
 .text-xxl {
-  font-size: 5rem;
+  font-size: 4.5rem;
+  line-height: 1.1;
 }
 
 .text-lg {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .text-md {
@@ -26,17 +28,24 @@ p {
   font-size: 1.25rem;
 }
 
+.text-xs {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .button-white {
   display: inline-block;
   background-color: white;
-  color: #282828;
-  padding: 16px 20px;
+  color: #282828!important;
+  cursor: pointer;
+  padding: 20px 28px;
   font-size: 1.6rem;
   border-radius: 0.2rem;
 }
 
 section#landing {
-  max-width: 400px;
+  max-width: 440px;
   padding: 40px 60px;
 }
 
@@ -45,7 +54,7 @@ section#landing h1 {
 }
 
 section#landing .button-white {
-  margin-top: 56px;
+  margin-top: 64px;
 }
 
 section#features {
