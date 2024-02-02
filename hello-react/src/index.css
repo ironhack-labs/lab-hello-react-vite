@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .infobar-img {
+        @apply mb-1 w-24 h-24; 
+    }
+}
