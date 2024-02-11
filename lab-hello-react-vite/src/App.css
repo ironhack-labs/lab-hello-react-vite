@@ -1,0 +1,76 @@
+/* #1f2535 */
+
+.App {
+  font-family: sans-serif;
+}
+
+.hero {
+  background-color: #1f2535;
+  margin: 20px;
+  color: white;
+  padding: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+  align-items: center;
+}
+
+.navbar .menu-icon {
+  height: 15px;
+}
+
+.title {
+  width: 50%;
+  padding: 150px 80px 30px 50px;
+  margin: 0;
+}
+
+.title h1 {
+  font-size: 6em;
+  margin: 0;
+}
+
+.title p {
+  font-size: 1.5em;
+  color: #dbdcde;
+  width: 50%;
+}
+
+.hero h2 {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  height: 75px;
+  width: 250px;
+  margin: 25px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 5px;
+
+}
+
+.articles {
+  margin: 150px;;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.articles article {
+  width: 25%;
+  margin: 5px;
+
+}
+
+.articles h3 {
+  font-size: 2em;
+}
+
+.articles p {
+  color: #4d4d4d;
+  font-size: 1.5em; 
+}
