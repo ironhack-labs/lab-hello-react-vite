@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
   padding: 2rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -39,4 +41,88 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.main {
+  background-color: rgb(39, 34, 48);
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ironhackLogo {
+  height: 40px;
+}
+
+.menuIcon {
+  width: 20px;
+  height: 10px;
+}
+
+.main h1 {
+  text-align: left;
+  width: 100%;
+  color: white;
+  font-size: 4rem;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  text-align: left;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.button {
+  margin: 30px 0 50px 0;
+  background-color: gainsboro;
+  color: rgb(39, 34, 48);
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 18px 20px;
+  border-radius: 5px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  text-align: left;
+  padding: 60px 40px 60px 60px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item img {
+  margin-top: 30px;
+  height: 100px;
+}
+
+.item h2 {
+  width: 80%;
+  margin: 0;
+  font-size: 1.15rem;
+  letter-spacing: 0.05rem;
+}
+
+.item p {
+  width: 80%;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 0.9rem;
 }
