@@ -1,0 +1,15 @@
+.hero {
+    min-height: 50vh;
+    color: #fff;
+    background-color: #1F2535;
+    display: flex;
+    padding: 100px 0
+}
+
+.hero .container .col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+    padding-bottom: 20px
+}

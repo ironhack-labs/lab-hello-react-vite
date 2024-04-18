@@ -1,0 +1,10 @@
+.featureslist {
+    margin: 20px auto;
+    padding: 100px 0;
+    color: black;
+    background-color: #fff;
+}
+
+.featureslist > div {
+    display: flex;
+}
