@@ -47,4 +47,37 @@
     border-radius: 5%;
     font-size: 15px;
     font-weight: 800;
+    margin-top: 30px;
+}
+
+.four-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.four-icons section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 50px;
+}
+
+.four-icons img{
+    height: auto;
+    width: 120px;
+}
+
+.four-icons h3{
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.four-icons p{
+    width: 150px;
+    color: #999999;
+    margin-top: 5px;
 }
