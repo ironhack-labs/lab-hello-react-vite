@@ -1,0 +1,26 @@
+.App {
+    margin: 2%;
+}
+
+.Hero{
+    background-color: #272D40;
+    padding: 3% 7%;
+    min-height: 100vh;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15%;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 55%;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    margin: 15% 5%;
+    gap: 35px;
+}
