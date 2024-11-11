@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(35, 2, 71);
+}
+
+/*class*/
+.navbar {
+  height: 10 vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
