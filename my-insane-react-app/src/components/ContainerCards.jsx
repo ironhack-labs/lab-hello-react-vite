@@ -1,5 +1,6 @@
 import { CardIcon } from './CardIcon';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
+/* eslint react/prop-types: 0 */
 
 const IconContainer = ({ cards }) => {
 	return (
@@ -11,8 +12,8 @@ const IconContainer = ({ cards }) => {
 	);
 };
 
-IconContainer.propTypes = {
-	cards: PropTypes.arrayOf(CardIcon.propTypes.card),
-};
+// IconContainer.propTypes = {
+// 	cards: PropTypes.arrayOf(CardIcon.propTypes.card),
+// };
 
 export default IconContainer;

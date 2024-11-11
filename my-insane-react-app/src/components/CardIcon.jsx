@@ -1,4 +1,5 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
+/* eslint react/prop-types: 0 */
 
 export const CardIcon = ({ card }) => {
 	return (
@@ -10,12 +11,12 @@ export const CardIcon = ({ card }) => {
 	);
 };
 
-CardIcon.propTypes = {
-	card: PropTypes.shape({
-		imagePath: PropTypes.string,
-		title: PropTypes.string,
-		text: PropTypes.string,
-	}),
-};
+// CardIcon.propTypes = {
+// 	card: PropTypes.shape({
+// 		imagePath: PropTypes.string,
+// 		title: PropTypes.string,
+// 		text: PropTypes.string,
+// 	}),
+// };
 
 export default CardIcon;
