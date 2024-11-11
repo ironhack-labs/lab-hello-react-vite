@@ -1,0 +1,79 @@
+body {
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 3px;
+}
+
+.App {
+	padding: 1rem;
+	padding-bottom: 10rem;
+}
+
+#header {
+	background-color: rgb(24, 21, 36);
+	color: white;
+	padding: 1rem 3rem;
+
+	& h1 {
+		margin-top: 5rem;
+		font-size: 5rem;
+		line-height: 5rem;
+		width: 60%;
+	}
+
+	& p {
+		font-size: 1rem;
+		padding-top: 1rem;
+		width: 40%;
+		padding-left: 0.5rem;
+	}
+
+	& button {
+		margin-top: 3rem;
+		margin-bottom: 5rem;
+	}
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	& img#logo {
+		height: 3rem;
+	}
+	& img#menu {
+		height: 0.5rem;
+	}
+}
+
+.card-container {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+
+	margin-top: 5rem;
+	width: 100%;
+
+	& .card {
+		width: 10rem;
+
+		display: flex;
+		flex-direction: column;
+
+		& img {
+			width: 60%;
+			margin-bottom: 1rem;
+			transform: translateX(-0.7rem);
+		}
+
+		& h6 {
+			font-size: 1.2rem;
+		}
+	}
+}
