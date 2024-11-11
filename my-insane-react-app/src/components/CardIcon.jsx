@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 
 export const CardIcon = ({ card }) => {
-	console.log(card);
-
 	return (
 		<div className='card'>
 			<img src={card.imagePath} alt='icon' />
@@ -13,9 +11,11 @@ export const CardIcon = ({ card }) => {
 };
 
 CardIcon.propTypes = {
-	card: {
+	card: PropTypes.shape({
 		imagePath: PropTypes.string,
 		title: PropTypes.string,
 		text: PropTypes.string,
-	},
+	}),
 };
+
+export default CardIcon;
