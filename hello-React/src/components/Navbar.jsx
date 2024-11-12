@@ -1,4 +1,4 @@
-import ironLogo from '../assets/ironhack-logo-xs.png ';
+/* import ironLogo from '../assets/ironhack-logo-xs.png';
 import topMenu from '../assets/menu-top-xs.png';
 
 function Navbar() {
@@ -11,4 +11,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default Navbar; */
