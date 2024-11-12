@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 0.9;
+  margin-top: 10vh;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.3em;
+  padding: 2vh 0;
+}
+
+button {
+  width: 120px;
+  height: 55px;
+  color: black;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-top: 3vh;
+}
+
+section {
+  margin-left: 1vw;
+}
+
+/*class*/
+.App {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+}
+
+.navbar {
+  height: 10 vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.content {
+  background-color: rgb(35, 2, 71);
+  padding: 2vh 5vw 8vh 5vw;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  font-size: 1em;
+  /* padding-top: 10vh; */
+}
