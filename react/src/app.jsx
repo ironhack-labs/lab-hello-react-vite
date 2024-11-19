@@ -1,6 +1,6 @@
 import Title from "./components/title/title";
 import Button from "./components/button/button";
-import Menu from "./components/menu/menu";
+import Nav from "./components/nav/nav";
 import Card from "./components/card/card";
 import icon1 from "./assets/icon1.png";
 import icon2 from "./assets/icon2.png";
@@ -12,7 +12,7 @@ function App() {
     <div className="App p-5">
       <main className="main p-5">
         <div className="container-fluid">
-          <Menu></Menu>
+          <Nav></Nav>
           <div className="row main-row">
             <div className="col-lg-6">
               <Title>Say hello to ReactJS</Title>

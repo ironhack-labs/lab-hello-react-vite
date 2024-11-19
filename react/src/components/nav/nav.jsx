@@ -1,8 +1,8 @@
 import LogoIcon from "../../assets/ironhack-logo-xs.png"
 import MenuIcon from "../../assets/menu-top-xs.png"
-import "./menu.css"
+import "./nav.css"
 
-function Menu() {
+function Nav() {
     return(
         <nav className="navbar navbar-dark">
             <img
@@ -19,4 +19,4 @@ function Menu() {
     )
 }
 
-export default Menu;
+export default Nav;
