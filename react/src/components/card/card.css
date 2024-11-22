@@ -1,0 +1,16 @@
+.card-img {
+  width: 130px;
+  height: auto;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: rgb(49, 49, 49);
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: rgb(49, 49, 49);
+}
