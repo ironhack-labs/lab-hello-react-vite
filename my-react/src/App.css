@@ -1,0 +1,16 @@
+#root {
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+}
+
+.navbar{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+

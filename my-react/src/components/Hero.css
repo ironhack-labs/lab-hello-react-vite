@@ -1,0 +1,55 @@
+.hero-layout{
+  display: flex;
+  flex-direction: row;
+  padding-left: 1em;
+  margin-top: 2em;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(31, 37, 53);
+}
+
+.content{
+  width: 50%;
+  text-align: left;
+  padding: 3em;
+}
+
+.content h1{
+  font-size: 5em;
+}
+
+.content p{
+  margin-top: -3em;
+}
+
+.content p span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.graphic-logos{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  opacity: 0.2;
+}
+
+button{
+  margin-top: 2em;
+    background-color: white;
+}
+
+.right{
+  padding-top: 6em;
+}
+
+.logo-left {
+  height: 8em;
+  padding: 1em;
+}
+
+.logo {
+
+  right: 0;
+  height: 7em; 
+  padding: 0.8em;
+}
