@@ -1,0 +1,24 @@
+.item-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.card-item img{
+    width: 125px;
+}
+
+.card-item {
+    width: 25%;
+    justify-items: flex-start;
+}
+
+.card-item h1{
+    font-size: 1.5em;
+}
+
+.card-item p{
+    font-size: 1.4em;
+    text-align: left;
+    padding-right: 5em;
+}
