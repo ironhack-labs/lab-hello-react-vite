@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-family: "Roboto", serif;
+}
+
+.heroBg {
+  background-color: #1f2535;
+  padding: 15px 50px
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  max-height: 30px;
+  img{
+    max-width: 30px;
+  }
+  img:last-of-type {
+    height: 10px;
+    padding-top: 10px;
+  }
+}
+
+.heroContainer {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  color: white;
+  max-width: 50%;
+  h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    line-height: 50px;
+  }
+  p {
+    max-width: 80%;
+    font-weight: 400;
+  }
+  .awesome {
+    padding: 5%;
+    color: #1f2535;
+    font-weight: 900;
+    margin-top: 2rem;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 5rem;
+}
+
+.card-container {
+  max-width: 30%;
+  margin: 10px;
+  img{
+    max-height: 80px;
+
+  }
+}
