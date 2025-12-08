@@ -1,0 +1,18 @@
+body{
+  padding: 1%;
+}
+
+.App > div:first-child{
+  background-color: #1f2535;
+  color: #FFFFFF;
+  padding: 2rem;
+}
+
+
+.App > div:first-child h1 {
+  font-size: 5rem;
+}
+
+.App > div:first-child p {
+  font-size: 1.5rem;
+}
